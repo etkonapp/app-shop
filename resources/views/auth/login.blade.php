@@ -3,23 +3,23 @@
 @section('body-class', 'login-page sidebar-collapse')
 
 @section('content')
-<div class="page-header header-filter" style="background-image: url('{{ asset('img/bg7.jpg') }}'); background-size: cover; background-position: top center;">
+<div class="page-header header-filter" style="background-image: url('{{ asset('img/bg.jpg') }}'); background-size: cover; background-position: top center;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+        <div class="col-md-6 ml-auto mr-auto">
           <div class="card card-login">
             <form class="form" method="POST" action="{{ route('login') }}">
                     {{ csrf_field() }}
               <div class="card-header card-header-primary text-center">
                 <h4 class="card-title">Login</h4>
                 <div class="social-line">
-                  <a href="#pablo" class="btn btn-just-icon btn-link">
+                  <a href="#" class="btn btn-just-icon btn-link">
                     <i class="fa fa-facebook-square"></i>
                   </a>
-                  <a href="#pablo" class="btn btn-just-icon btn-link">
+                  <a href="#" class="btn btn-just-icon btn-link">
                     <i class="fa fa-twitter"></i>
                   </a>
-                  <a href="#pablo" class="btn btn-just-icon btn-link">
+                  <a href="#" class="btn btn-just-icon btn-link">
                     <i class="fa fa-google-plus"></i>
                   </a>
                 </div>
@@ -74,24 +74,16 @@
         <nav class="float-left">
           <ul>
             <li>
-              <a href="#">
-                Creative Tim
-              </a>
+              <a href="#">Etkon app</a>
             </li>
             <li>
-              <a href="#">
-                About Us
-              </a>
+              <a href="#">About Us</a>
             </li>
             <li>
-              <a href="#">
-                Blog
-              </a>
+              <a href="#">Blog</a>
             </li>
             <li>
-              <a href="#">
-                Licenses
-              </a>
+              <a href="#">Licenses</a>
             </li>
           </ul>
         </nav>
